@@ -195,24 +195,24 @@
 
 # print("Second largest =", second)
 
-a=int(input("Enter a  first number: "))
-b=int(input("Enter a second number: "))
-while True:
-    print("1 addition")
-    print("2 subtraction")
-    print("3 multiplication")
-    print("4 division")
-    print("5 exit")
-    choice=int(input("enter your choice: "))
-    if choice==1:
-        print(a+b)
-    elif choice==2:
-        print(a-b)
-    elif choice==3:
-        print(a*b)
-    elif choice==4:
-        print(a/b)
-    elif choice==5:
-        break
-    else:
-        print("invalid choice")
+# a=int(input("Enter a  first number: "))
+# b=int(input("Enter a second number: "))
+# while True:
+#     print("1 addition")
+#     print("2 subtraction")
+#     print("3 multiplication")
+#     print("4 division")
+#     print("5 exit")
+#     choice=int(input("enter your choice: "))
+#     if choice==1:
+#         print(a+b)
+#     elif choice==2:
+#         print(a-b)
+#     elif choice==3:
+#         print(a*b)
+#     elif choice==4:
+#         print(a/b)
+#     elif choice==5:
+#         break
+#     else:
+#         print("invalid choice")
