@@ -186,14 +186,13 @@
 # for num in numbers:
 #     if num > largest:
 #         largest = num
-
 # second = numbers[0]
-
 # for num in numbers:
 #     if num > second and num != largest:
 #         second = num
-
 # print("Second largest =", second)
+
+# calculator
 
 # a=int(input("Enter a  first number: "))
 # b=int(input("Enter a second number: "))
@@ -212,6 +211,41 @@
 #         print(a*b)
 #     elif choice==4:
 #         print(a/b)
+#     elif choice==5:
+#         break
+#     else:
+#         print("invalid choice")
+
+# odd even , choice 2- positive negative, choice 3 - square, choice 4 - divisible by 5, 
+choice 6- Exit
+
+# a=int(input("enter your number: "))
+# while True:
+#     print("1 odd even")
+#     print("2 positive negative")
+#     print("3 square")
+#     print("4 divisible by 5")
+#     print("5 exit")
+#     choice=int(input("enter your choice: "))
+#     if choice==1:
+#         if a%2==0:
+#             print("even")
+#         else:
+#             print("odd")    
+#     elif choice==2:
+#         if a>0:
+#             print("positive")
+#         elif a<0:
+#             print("negative")
+#         else:
+#             print("zero")    
+#     elif choice==3:
+#         print(a*a)
+#     elif choice==4:
+#         if a%5==0:
+#             print("divisible by 5")
+#         else:
+#             print("not divisible by 5")    
 #     elif choice==5:
 #         break
 #     else:
