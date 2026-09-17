@@ -158,5 +158,61 @@
 #     print(a)
 #     a,b=b,a+b
 #     n-=1
-    
-    
+
+# digit frequency
+
+# n = int(input("Enter a number: "))
+
+# for i in range(10):
+#     count = 0
+#     temp = n
+
+#     for j in range(10):
+#         digit = temp % 10
+
+#         if digit == i:
+#             count += 1
+
+#         temp = temp // 10
+
+#     if count > 0:
+#         print(i, "=", count)
+
+#   second largest number
+# numbers = [45, 12, 89, 34, 67, 90, 56]
+
+# largest = numbers[0]
+
+# for num in numbers:
+#     if num > largest:
+#         largest = num
+
+# second = numbers[0]
+
+# for num in numbers:
+#     if num > second and num != largest:
+#         second = num
+
+# print("Second largest =", second)
+
+a=int(input("Enter a  first number: "))
+b=int(input("Enter a second number: "))
+while True:
+    print("1 addition")
+    print("2 subtraction")
+    print("3 multiplication")
+    print("4 division")
+    print("5 exit")
+    choice=int(input("enter your choice: "))
+    if choice==1:
+        print(a+b)
+    elif choice==2:
+        print(a-b)
+    elif choice==3:
+        print(a*b)
+    elif choice==4:
+        print(a/b)
+    elif choice==5:
+        break
+    else:
+        print("invalid choice")

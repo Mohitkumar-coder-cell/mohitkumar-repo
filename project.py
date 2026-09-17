@@ -207,3 +207,116 @@
 #         else:
 #             print("Invalid choice!")
 
+# lyrics project
+# import os
+# import random
+# import sys
+# import time
+
+# # ANSI Color Codes
+# PASSION_RED = "\033[38;5;88m"
+# DEEP_PURPLE = "\033[38;5;54m"
+# GOLDEN_WARM = "\033[38;5;136m"
+# MIST_WHITE = "\033[38;5;251m"
+# BOLD = "\033[1m"
+# RESET = "\033[0m"
+
+
+# def flirty_typing(text, color):
+#     for char in text:
+#         sys.stdout.write(f"{BOLD}{color}{char}{RESET}")
+#         sys.stdout.flush()
+#         time.sleep(0.077)
+
+
+# def run_ithinktheycallthislove_code():
+#     os.system("cls" if os.name == "nt" else "clear")
+
+#     print(f"\n {MIST_WHITE}  I Think They Call This Love... {RESET}")
+#     time.sleep(1.7)
+#     print(f" {PASSION_RED}  Elliot James Reay {RESET}\n")
+#     time.sleep(1.3)
+
+#     lyrics = [
+#         ("They say you know when you know", PASSION_RED),
+#         ("So, let's face it,", DEEP_PURPLE),
+#         ('You had me at "Hello"', GOLDEN_WARM),
+#         ("Hesitation never helps", PASSION_RED),
+#         ("How could this be", DEEP_PURPLE),
+#         ("anything, anything else?", GOLDEN_WARM),
+#         ("All I dream of is your eyes", PASSION_RED),
+#         ("All I long for is your touch", DEEP_PURPLE),
+#         ("And, darling, something tells", GOLDEN_WARM),
+#         ("me that's enough, mm-mm-mm-mm", PASSION_RED),
+#         ("You can say that I'm a fool", DEEP_PURPLE),
+#         ("And I don't know very much", GOLDEN_WARM),
+#         ("But I think they call this love", PASSION_RED),
+#         ("One smile, one kiss, two lonely", DEEP_PURPLE),
+#         ("hearts is all that it takes", GOLDEN_WARM),
+#         ("Now, baby, you're on my", PASSION_RED),
+#         ("mind, every night, every day", DEEP_PURPLE),
+#         ("Good vibrations getting loud", GOLDEN_WARM),
+#         ("How could this be", PASSION_RED),
+#         ("anything, anything else?", DEEP_PURPLE),
+#         ("All I dream of is your eyes", GOLDEN_WARM),
+#         ("All I long for is your touch", PASSION_RED),
+#         ("And, darling, something tells", DEEP_PURPLE),
+#         ("me that's enough, mm-mm-mm-mm", GOLDEN_WARM),
+#         ("You can say that I'm a fool", PASSION_RED),
+#         ("And I don't know very much", DEEP_PURPLE),
+#         ("But I think they call this love", GOLDEN_WARM),
+#         ("Oh, I think they call this love", PASSION_RED),
+#         ("Hmm, ooh-ooh, mm", DEEP_PURPLE),
+#         ("Mm", GOLDEN_WARM),
+#         ("What could this be", PASSION_RED),
+#         ("Between you and me? Oh, oh", DEEP_PURPLE),
+#         ("All I dream of is your eyes", GOLDEN_WARM),
+#         ("All I long for is your touch", PASSION_RED),
+#         ("And, darling, something tells", DEEP_PURPLE),
+#         ("me, tells me, it's enough", GOLDEN_WARM),
+#         ("You can say that I'm a fool", PASSION_RED),
+#         ("And I don't know very much", DEEP_PURPLE),
+#         ("But I think they call—", GOLDEN_WARM),
+#         ("Oh, I think they call—", PASSION_RED),
+#         ("Yes, I think they call", DEEP_PURPLE),
+#         ("This love", GOLDEN_WARM),
+#     ]
+
+#     for line, color in lyrics:
+#         indent = " " * random.randint(3, 14)
+#         sys.stdout.write(indent)
+
+#         flirty_typing(line, color)
+
+#         # Keyword-based emoji trail matching the script logic
+#         line_lower = line.lower()
+#         if "love" in line_lower:
+#             sys.stdout.write(" ❤️")
+#         elif "eyes" in line_lower:
+#             sys.stdout.write(" ✨")
+#         elif "touch" in line_lower or "kiss" in line_lower or "smile" in line_lower:
+#             sys.stdout.write(" 💋")
+#         elif "hearts" in line_lower or "mind" in line_lower:
+#             sys.stdout.write(" 💓")
+#         elif "fool" in line_lower or "dream" in line_lower:
+#             sys.stdout.write(" 🌙")
+#         elif "vibrations" in line_lower or "loud" in line_lower:
+#             sys.stdout.write(" 🎶")
+#         elif "hello" in line_lower:
+#             sys.stdout.write(" 👋")
+#         else:
+#             sys.stdout.write(" 💖")
+
+#         print("\n")
+#         time.sleep(1.55)
+
+#     print(
+#         f"\n {BOLD}{PASSION_RED}   [ Yes, I think they call this love... ❤️ ]{RESET}\n"
+#     )
+
+
+# if __name__ == "__main__":
+#     run_ithinktheycallthislove_code()
+
+
+    
